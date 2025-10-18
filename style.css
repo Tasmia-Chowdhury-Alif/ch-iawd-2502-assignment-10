@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&display=swap');
+
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+
+    --brand-color: #fc0;
+}
+
+
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-family);
+    color: #353535;
+    overflow-x: hidden;
+}
+
+.brand-btn {
+    width: 200px;
+}
+
+.brand-bg-leanier-gradient {
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+}
+
+/* common css end */
+
+
+/* nav start */
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem var(--brand-color);
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    font-weight: 700;
+    border-bottom: 3px solid var(--brand-color);
+}
+
+/* nav end */
+
+
+/* hero strart */
+
+.hero-text-container h5 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 19px;
+}
+
+.hero-text-container h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.hero-text-container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.follow-me p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+}
+
+.follow-me-icon {
+    background-color: #f4f4f4;
+}
+
+/* hero end */
+
+
+/* about me start */
+
+.about-me {
+    margin-top: 144px;
+}
+
+.about-me-text h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.about-me-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+}
+
+/* about me end */
+
+
+/* service start */
+.service {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.card {
+    border: 0px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;
+}
+
+/* service end */
+
+/* branding start */
+
+.branding-text h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
+}
+
+.branding-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+}
+
+/* branding end */
+
+
+/* Responsive */
+@media (max-width: 992px) {
+    .hero-text-container h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text-container h5 {
+        font-size: 20px;
+    }
+
+    .hero-text-container h1 {
+        font-size: 36px;
+    }
+
+    .about-me-text h1 {
+        font-size: 36px;
+    }
+
+    .about-me-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .brand-btn {
+        width: 100%;
+    }
+
+    .hero-text-container h1, .about-me-text h1, .branding-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text-container p {
+        font-size: 18px;
+    }
+
+    .card {
+        padding: 0.8rem;
+    }
+
+    .about-me img {
+        width: 80%;
+    }
+
+}

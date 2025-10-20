@@ -206,6 +206,9 @@ body {
 /* service end */
 
 /* experience start */
+.experience{
+    background-color: #fbfbfb;
+}
 
 .experience h2{
     font-family: var(--second-family);
@@ -294,6 +297,7 @@ body {
         font-size: 36px;
     }
 
+
     .about-me-text h1 {
         font-size: 36px;
     }
@@ -301,6 +305,7 @@ body {
     .about-me-text p {
         font-size: 16px;
     }
+
 
     .service-text h2{
         font-size: 30px;
@@ -313,6 +318,37 @@ body {
     .service-count h4{
         font-size: 24px;
         text-align: left;
+    }
+
+
+    .experience h2{
+        font-size: 30px;
+    }
+    .experience-timeline h4{
+        font-size: 20px;
+    }
+
+    .experience-timeline .company p{
+        font-size: 16px;
+    }
+    .experience-timeline .designation p{
+        font-size: 16px;
+    }
+    .experience-timeline .company {
+        border-right: 0px;
+        border-left: 2px dashed #7a7a7a;
+        position: relative;
+    }
+    .experience-timeline .designation {
+        border-right: 0px;
+        border-left: 2px dashed #7a7a7a;
+        position: relative;
+    }
+    .experience-timeline .company::before {
+        left: calc(-42px/2);
+    }
+    .experience-timeline .company::after {
+        left: calc(-20px/2);
     }
 }
 

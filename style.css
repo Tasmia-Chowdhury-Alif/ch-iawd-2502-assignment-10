@@ -122,19 +122,19 @@ body {
 /* about me end */
 
 
-/* service start */
-.service {
+/* idea start */
+.idea {
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-.card {
+.idea .card {
     border: 0px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
     background: #fff;
 }
 
-.card-text {
+.idea .card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 190%;
@@ -142,7 +142,7 @@ body {
     color: #7a7a7a;
 }
 
-/* service end */
+/* idea end */
 
 /* branding start */
 
@@ -161,6 +161,121 @@ body {
 }
 
 /* branding end */
+
+/* service start */
+
+.service-cards .card-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.service-cards .card-text{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+}
+
+.service-text h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+}
+.service-text p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+}
+
+.service-count h4{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    color: #353535;
+}
+.service-count p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
+}
+
+/* service end */
+
+/* experience start */
+
+.experience h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+}
+
+.experience-timeline h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.experience-timeline .company p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+.experience-timeline .designation p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+.experience-timeline .company {
+    border-right: 2px dashed #7a7a7a;
+    position: relative;
+}
+.experience-timeline .company::before {
+    content: '';
+    border: 2px dashed #7a7a7a;
+    border-radius: 50%;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 0px;
+    right: calc(-42px/2);
+    background-color: white;
+}
+.experience-timeline .company::after {
+    content: '';
+    border-radius: 100%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc(20px/2);
+    right: calc(-20px/2);
+    background-color: #52ab70;
+}
+.experience-timeline .company.green::after {
+    background-color: #52ab70;
+}
+.experience-timeline .company.red::after {
+    background-color: #f17676;
+}
+.experience-timeline .company.yellow::after {
+    background-color: #ffd233;
+}
+
+/* experience end */
+
+
+
 
 
 /* Responsive */
@@ -185,6 +300,19 @@ body {
 
     .about-me-text p {
         font-size: 16px;
+    }
+
+    .service-text h2{
+        font-size: 30px;
+    }
+    .service-text p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 180%;
+    }
+    .service-count h4{
+        font-size: 24px;
+        text-align: left;
     }
 }
 

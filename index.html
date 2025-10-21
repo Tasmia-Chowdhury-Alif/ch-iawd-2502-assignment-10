@@ -198,7 +198,7 @@
         <!-- Service section Start -->
         <section
             class="container-xxl mx-auto row flex-column-reverse flex-md-column-reverse flex-lg-row justify-content-center justify-content-md-between py-5 my-5">
-            <div class="service-cards col-12 col-md-4 mt-5 mt-md-0">
+            <div class="service-cards-container col-12 col-md-4 mt-5 mt-md-0">
                 <!-- card-1 -->
                 <div class="card mb-5 shadow border-0 rounded-4">
                     <div class="row g-0">
@@ -332,63 +332,90 @@
             <!-- Skills and Education Tabs -->
             <div class="col-12 col-md-4 mt-5 mt-md-0 pt-5 pt-md-0">
                 <nav>
-                    <div class="nav nav-tabs d-flex justify-content-between border-bottom-0" id="nav-tab" role="tablist">
-                        <button class="nav-link btn text-black rounded-4 fs-5 px-5 active" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills"
-                            type="button" role="tab" aria-controls="skills" aria-selected="true">Skills</button>
-                        <button class="nav-link btn text-black rounded-4 fs-5 px-5" id="education-tab" data-bs-toggle="tab" data-bs-target="#education"
-                            type="button" role="tab" aria-controls="education" aria-selected="false">Education</button>
+                    <div class="nav nav-tabs d-flex justify-content-between border-bottom-0" id="nav-tab"
+                        role="tablist">
+                        <button class="nav-link btn text-black rounded-4 fs-5 px-5 active" id="skills-tab"
+                            data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab"
+                            aria-controls="skills" aria-selected="true">Skills</button>
+                        <button class="nav-link btn text-black rounded-4 fs-5 px-5" id="education-tab"
+                            data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab"
+                            aria-controls="education" aria-selected="false">Education</button>
                     </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="nav-home-tab"
                         tabindex="0">
                         <!-- Figma Skills -->
-                        <div class="progress-text d-flex justify-content-between orange pt-5"  style="width: 85%;">
-                            <div><h6>Figma</h6></div>
-                            <div><p>85%</p></div>
+                        <div class="progress-text d-flex justify-content-between orange pt-5" style="width: 85%;">
+                            <div>
+                                <h6>Figma</h6>
+                            </div>
+                            <div>
+                                <p>85%</p>
+                            </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar orange-bg" style="width: 85%;" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar orange-bg" style="width: 85%;" role="progressbar"
+                                aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            </div>
                         </div>
                         <!-- Photoshop Skills -->
                         <div class="progress-text d-flex justify-content-between navy-blue pt-5 w-75">
-                            <div><h6>Photoshop</h6></div>
-                            <div><p>75%</p></div>
+                            <div>
+                                <h6>Photoshop</h6>
+                            </div>
+                            <div>
+                                <p>75%</p>
+                            </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar w-75 navy-blue-bg" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar w-75 navy-blue-bg" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <!-- XD Skills -->
-                        <div class="progress-text d-flex justify-content-between purple pt-5"  style="width: 80%;">
-                            <div><h6>XD</h6></div>
-                            <div><p>80%</p></div>
+                        <div class="progress-text d-flex justify-content-between purple pt-5" style="width: 80%;">
+                            <div>
+                                <h6>XD</h6>
+                            </div>
+                            <div>
+                                <p>80%</p>
+                            </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar purple-bg" style="width: 80%;" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar purple-bg" style="width: 80%;" role="progressbar"
+                                aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            </div>
                         </div>
                         <!-- Illustrator Skills -->
-                        <div class="progress-text d-flex justify-content-between blue-illustrator pt-5"  style="width: 70%;">
-                            <div><h6>Illustrator</h6></div>
-                            <div><p>70%</p></div>
+                        <div class="progress-text d-flex justify-content-between blue-illustrator pt-5"
+                            style="width: 70%;">
+                            <div>
+                                <h6>Illustrator</h6>
+                            </div>
+                            <div>
+                                <p>70%</p>
+                            </div>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar blue-illustrator-bg" style="width: 70%;" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar blue-illustrator-bg" style="width: 70%;" role="progressbar"
+                                aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="nav-profile-tab"
                         tabindex="0">
                         <ul class="list-unstyled mt-5 education">
                             <li>
-                                <strong class="purple pb-3">Diploma in Computer Science And Technology</strong> 
+                                <strong class="purple pb-3">Diploma in Computer Science And Technology</strong>
                                 <br>- National Institute of Technology (NIT)
                             </li>
                             <li>
-                                <strong class="orange pb-3">Diploma in UI/UX Design</strong> 
+                                <strong class="orange pb-3">Diploma in UI/UX Design</strong>
                                 <br>- Creative IT
                             </li>
                             <li>
-                                <strong class="navy-blue pb-3">Graphic Design Course</strong> 
-                                <br>- Creative IT  
+                                <strong class="navy-blue pb-3">Graphic Design Course</strong>
+                                <br>- Creative IT
                             </li>
                         </ul>
                     </div>
@@ -397,11 +424,275 @@
         </section>
         <!-- expert-area section End -->
 
-        
+        <!-- Sevices section start-->
+        <section id="service" >
+            <div class="container-xxl mx-auto text-center px-md-5 py-5">
+                <h2>My Sevices</h2>
+                <p>
+                    Most common methods for designing websites that work well on <br />
+                    desktop is responsive and adaptive design
+                </p>
+                <div class="row justify-content-center g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4">
+                        <div class="service-card">
+                            <img src="./assets/Group 199.png" alt="" />
+                            <h5>Creative Design</h5>
+                            <p>
+                                Web design refers to the design of websites that are displayed
+                                on the internet. It usually refers to the user experience
+                                aspects of website development
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4">
+                        <div class="service-card highlight">
+                            <img src="./assets/service1.png" alt="" />
+                            <h5>UI/UX Design</h5>
+                            <p>
+                                Web design refers to the design of websites that are displayed
+                                on the internet. It usually refers to the user experience
+                                aspects of website development
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4">
+                        <div class="service-card">
+                            <img src="./assets/service2.png" alt="" />
+                            <h5>Web Design</h5>
+                            <p>
+                                Web design refers to the design of websites that are displayed
+                                on the internet. It usually refers to the user experience
+                                aspects of website development
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sevices section end-->
 
+        <!-- Feedback section start-->
+        <section id="feedback">
+            <div class="container-xxl mx-auto py-5 my-5">
+                <div class="feedback-title">
+                    <h2>Valuable feedback from my client</h2>
+                    <p>
+                        Most common methods for designing websites that work well on
+                        desktop is <br />
+                        responsive and adaptive design
+                    </p>
+                </div>
+                <div class="row align-items-center justify-content-between g-4 feedbackCard">
+                    <div class="col-md-5">
+                        <img src="./assets/images/Group 203.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-md-6 feedback-text">
+                        <p>
+                            “Awesome website! Easy to use and edit, it has a lot of options
+                            to design whatever you need, it is professional and fun. I was
+                            very successful creating my profile using designer which gave me
+                            unbelievable reach & appreciation.”
+                        </p>
+                        <h5>Albert Walkers</h5>
+                        <p class="feedbackGroup">Vivaco Group</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feedback section end-->
+
+        <!-- Blog section start-->
+        <section id="blog">
+            <div class="container-xxl mx-auto">
+                <h2 class="text-md-end text-start fs-2">From My Blog Post</h2>
+                <div class="row justify-content-center justify-content-md-around">
+                    <div class="col-12 col-md-5">
+                        <div class="blog-card d-block d-md-flex" style="align-items: flex-start;">
+                            <img src="./assets/images/7358641 1.png" class="img-fluid d-inline-block w-auto mx-auto mx-md-0" alt="Blog Image" />
+                            <div class="blog-content  mx-auto mx-md-0">
+                                <div class="blog-meta">
+                                    <p>
+                                        <i class="fa-regular fa-calendar-days"></i> 02 June, 2022
+                                    </p>
+                                    <span>John Smith</span>
+                                </div>
+                                <div class="blog-title">
+                                    Diversification of digital <br />
+                                    marketing strategies
+                                </div>
+                                <a href="#" class="read-more">Read More
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M17.5001 3.125C17.5001 2.95924 17.4342 2.80027 17.317 2.68306C17.1998 2.56585 17.0408 2.5 16.8751 2.5H9.37506C9.2093 2.5 9.05033 2.56585 8.93312 2.68306C8.81591 2.80027 8.75006 2.95924 8.75006 3.125C8.75006 3.29076 8.81591 3.44973 8.93312 3.56694C9.05033 3.68415 9.2093 3.75 9.37506 3.75H15.3663L2.68256 16.4325C2.62445 16.4906 2.57835 16.5596 2.5469 16.6355C2.51545 16.7114 2.49927 16.7928 2.49927 16.875C2.49927 16.9572 2.51545 17.0386 2.5469 17.1145C2.57835 17.1904 2.62445 17.2594 2.68256 17.3175C2.74067 17.3756 2.80965 17.4217 2.88558 17.4532C2.9615 17.4846 3.04288 17.5008 3.12506 17.5008C3.20724 17.5008 3.28861 17.4846 3.36454 17.4532C3.44046 17.4217 3.50945 17.3756 3.56756 17.3175L16.2501 4.63375V10.625C16.2501 10.7908 16.3159 10.9497 16.4331 11.0669C16.5503 11.1842 16.7093 11.25 16.8751 11.25C17.0408 11.25 17.1998 11.1842 17.317 11.0669C17.4342 10.9497 17.5001 10.7908 17.5001 10.625V3.125Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="blog-card d-block d-md-flex" style="align-items: flex-start;">
+                            <img src="./assets/images/Group 196.png" class="img-fluid d-inline-block w-auto mx-auto mx-md-0" alt="Blog Image" />
+                            <div class="blog-content  mx-auto mx-md-0">
+                                <div class="blog-meta">
+                                    <p>
+                                        <i class="fa-regular fa-calendar-days"></i> 02 June, 2022
+                                    </p>
+                                    <span>John Smith</span>
+                                </div>
+                                <div class="blog-title">
+                                    Diversification of digital <br />
+                                    marketing strategies
+                                </div>
+                                <a href="#" class="read-more">Read More
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M17.5001 3.125C17.5001 2.95924 17.4342 2.80027 17.317 2.68306C17.1998 2.56585 17.0408 2.5 16.8751 2.5H9.37506C9.2093 2.5 9.05033 2.56585 8.93312 2.68306C8.81591 2.80027 8.75006 2.95924 8.75006 3.125C8.75006 3.29076 8.81591 3.44973 8.93312 3.56694C9.05033 3.68415 9.2093 3.75 9.37506 3.75H15.3663L2.68256 16.4325C2.62445 16.4906 2.57835 16.5596 2.5469 16.6355C2.51545 16.7114 2.49927 16.7928 2.49927 16.875C2.49927 16.9572 2.51545 17.0386 2.5469 17.1145C2.57835 17.1904 2.62445 17.2594 2.68256 17.3175C2.74067 17.3756 2.80965 17.4217 2.88558 17.4532C2.9615 17.4846 3.04288 17.5008 3.12506 17.5008C3.20724 17.5008 3.28861 17.4846 3.36454 17.4532C3.44046 17.4217 3.50945 17.3756 3.56756 17.3175L16.2501 4.63375V10.625C16.2501 10.7908 16.3159 10.9497 16.4331 11.0669C16.5503 11.1842 16.7093 11.25 16.8751 11.25C17.0408 11.25 17.1998 11.1842 17.317 11.0669C17.4342 10.9497 17.5001 10.7908 17.5001 10.625V3.125Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="blog-card d-block d-md-flex" style="align-items: flex-start;">
+                            <img src="./assets/images/Group 195.png" class="img-fluid d-inline-block w-auto mx-auto mx-md-0" alt="Blog Image" />
+                            <div class="blog-content  mx-auto mx-md-0">
+                                <div class="blog-meta">
+                                    <p>
+                                        <i class="fa-regular fa-calendar-days"></i> 02 June, 2022
+                                    </p>
+                                    <span>John Smith</span>
+                                </div>
+                                <div class="blog-title">
+                                    Diversification of digital <br />
+                                    marketing strategies
+                                </div>
+                                <a href="#" class="read-more">Read More
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M17.5001 3.125C17.5001 2.95924 17.4342 2.80027 17.317 2.68306C17.1998 2.56585 17.0408 2.5 16.8751 2.5H9.37506C9.2093 2.5 9.05033 2.56585 8.93312 2.68306C8.81591 2.80027 8.75006 2.95924 8.75006 3.125C8.75006 3.29076 8.81591 3.44973 8.93312 3.56694C9.05033 3.68415 9.2093 3.75 9.37506 3.75H15.3663L2.68256 16.4325C2.62445 16.4906 2.57835 16.5596 2.5469 16.6355C2.51545 16.7114 2.49927 16.7928 2.49927 16.875C2.49927 16.9572 2.51545 17.0386 2.5469 17.1145C2.57835 17.1904 2.62445 17.2594 2.68256 17.3175C2.74067 17.3756 2.80965 17.4217 2.88558 17.4532C2.9615 17.4846 3.04288 17.5008 3.12506 17.5008C3.20724 17.5008 3.28861 17.4846 3.36454 17.4532C3.44046 17.4217 3.50945 17.3756 3.56756 17.3175L16.2501 4.63375V10.625C16.2501 10.7908 16.3159 10.9497 16.4331 11.0669C16.5503 11.1842 16.7093 11.25 16.8751 11.25C17.0408 11.25 17.1998 11.1842 17.317 11.0669C17.4342 10.9497 17.5001 10.7908 17.5001 10.625V3.125Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="blog-card d-block d-md-flex" style="align-items: flex-start;">
+                            <img src="./assets/images/Group 197.png" class="img-fluid d-inline-block w-auto mx-auto mx-md-0" alt="Blog Image" />
+                            <div class="blog-content  mx-auto mx-md-0">
+                                <div class="blog-meta">
+                                    <p>
+                                        <i class="fa-regular fa-calendar-days"></i> 02 June, 2022
+                                    </p>
+                                    <span>John Smith</span>
+                                </div>
+                                <div class="blog-title">
+                                    Diversification of digital <br />
+                                    marketing strategies
+                                </div>
+                                <a href="#" class="read-more">Read More
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M17.5001 3.125C17.5001 2.95924 17.4342 2.80027 17.317 2.68306C17.1998 2.56585 17.0408 2.5 16.8751 2.5H9.37506C9.2093 2.5 9.05033 2.56585 8.93312 2.68306C8.81591 2.80027 8.75006 2.95924 8.75006 3.125C8.75006 3.29076 8.81591 3.44973 8.93312 3.56694C9.05033 3.68415 9.2093 3.75 9.37506 3.75H15.3663L2.68256 16.4325C2.62445 16.4906 2.57835 16.5596 2.5469 16.6355C2.51545 16.7114 2.49927 16.7928 2.49927 16.875C2.49927 16.9572 2.51545 17.0386 2.5469 17.1145C2.57835 17.1904 2.62445 17.2594 2.68256 17.3175C2.74067 17.3756 2.80965 17.4217 2.88558 17.4532C2.9615 17.4846 3.04288 17.5008 3.12506 17.5008C3.20724 17.5008 3.28861 17.4846 3.36454 17.4532C3.44046 17.4217 3.50945 17.3756 3.56756 17.3175L16.2501 4.63375V10.625C16.2501 10.7908 16.3159 10.9497 16.4331 11.0669C16.5503 11.1842 16.7093 11.25 16.8751 11.25C17.0408 11.25 17.1998 11.1842 17.317 11.0669C17.4342 10.9497 17.5001 10.7908 17.5001 10.625V3.125Z"
+                                            fill="black" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Blog section end-->
+
+        <!-- Newsletter section Start-->
+        <section id="newsletter">
+            <div class="container">
+                <div class="row newsletterTxt text-start align-items-center justify-content-between gy-4">
+                    <div class="col-lg-5 col-md-6 col-12 text-md-start text-center">
+                        <h5>Subscribe Now</h5>
+                        <h2>Get My Newsletter</h2>
+                        <p>Get latest news, updates, tips and tricks in your inbox</p>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <form class="subscribe-form">
+                            <input type="email" class="form-control" placeholder="Your email here" required />
+                            <button type="submit" class="">Send Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter section end-->
     </main>
 
-    <footer></footer>
+
+    <!-- Footer section start-->
+    <footer id="footer">
+        <span class="circle-shape d-none d-md-block"></span>
+        <span class="wave-line d-none d-md-block">
+            <img src="./assets/images/ 5.png" alt="" />
+        </span>
+
+        <div class="container">
+            <div>
+                <div class="row justify-content-between">
+                    <div class="col-md-3 mb-4 mb-md-0 text-md-start">
+                        <img src="./assets/images/ASHIKUR2.png" alt="" />
+                    </div>
+                    <div class="col-md-5 text-md-start footerTitle">
+                        <h3>Let's work together</h3>
+                        <p>
+                            You can express yourself however you want and whenever you want,
+                            for free. You can customize a template or make your own.
+                        </p>
+                    </div>
+                    <div class="col-md-3 mb-4 mb-md-0 text-center">
+                        <a href="#" class="btnCommon d-flex align-items-center gap-2">
+                            Let's talk
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 2L11 13M22 2L15 22L11 13L2 9L22 2Z" stroke="white" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-between contact">
+                    <div class="col-md-3 col-6 text-start">
+                        <p>Call:</p>
+                        <span>+9984748473833</span>
+                    </div>
+
+                    <div class="col-md-3 col-6 text-start">
+                        <p>Email:</p>
+                        <span>dfsush@gmail.com</span>
+                    </div>
+                    <div class="col-md-3 text-white mt-4 d-flex gap-3 flex-wrap">
+                        <div>
+                            <span class="fw-semibold fs-5">Follow me :</span>
+                        </div>
+                        <div class="d-flex gap-3 fs-5">
+                            <a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-behance"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -32,12 +32,45 @@ body {
     overflow-x: hidden;
 }
 
+
+.brand-color-bg{
+    background-color: var(--brand-color);
+}
+
 .brand-btn {
     width: 200px;
 }
 
 .brand-bg-leanier-gradient {
     background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+}
+
+.orange{
+    color: #f16500;
+}
+.orange-bg {
+    background-color: #f16500;
+}
+
+.navy-blue{
+    color: #03249b;
+}
+.navy-blue-bg{
+    background-color: #03249b;
+}
+
+.purple{
+    color: #700d60;
+}
+.purple-bg{
+    background-color: #700d60;
+}
+
+.blue-illustrator{
+    color: #234bda;
+}
+.blue-illustrator-bg{
+    background-color: #234bda;
 }
 
 /* common css end */
@@ -276,6 +309,66 @@ body {
 }
 
 /* experience end */
+
+
+/* expert-area Start */
+
+.expert-area-text h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+}
+.expert-area-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--brand-color);
+  color: white !important;
+}
+
+.progress-text h6{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+}
+.progress-text p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    margin-bottom: 0px;
+}
+
+.progress{
+    border-radius: 50px;
+    height: 6px;
+    background-color: #d9d9d9;
+}
+.progress-bar{
+    border-radius: 50px;
+}
+
+.education li strong {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+}
+.education li {
+  margin-top: 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+/* expert-area End */
 
 
 

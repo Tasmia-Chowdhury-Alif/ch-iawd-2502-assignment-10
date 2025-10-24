@@ -637,9 +637,7 @@ body {
   text-align: justify;
   color: #bbb9b9;
 }
-.contact {
-  padding-top: 60px;
-}
+
 .contact p {
   font-family: var(--font-family);
   font-weight: 400;
@@ -704,6 +702,7 @@ body {
         font-weight: 400;
         font-size: 15px;
         line-height: 180%;
+        text-align: justify ;
     }
 
     .service-count h4 {
@@ -726,6 +725,7 @@ body {
 
     .experience-timeline .designation p {
         font-size: 16px;
+        text-align: justify ;
     }
 
     .experience-timeline .company {
@@ -746,6 +746,30 @@ body {
 
     .experience-timeline .company::after {
         left: calc(-20px/2);
+    }
+
+
+    .expert-area-text h2 {
+        font-size: 36px;
+    }
+    
+    .expert-area-text p {
+        font-size: 16px;        
+        text-align: justify ;
+    }
+
+    .feedback-title h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .feedback-title p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .feedback-text p{
+        font-size: 16px;
+        text-align: justify;
     }
 }
 

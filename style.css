@@ -86,20 +86,19 @@ body {
     box-shadow: 0 0 0 0.2rem var(--brand-color);
 }
 
-.nav-item {
+.nav-item{
     padding: 0 18px;
-}
-
-.nav-link {
+    border-bottom: 3px solid transparent;
     font-weight: 500;
     font-size: 15px;
     line-height: 200%;
-    transition: 0.2s;
+    transition: border-bottom-color 0.2s ease-in-out, font-weight 0.2s ease-in-out;
 }
 
-.nav-item:hover {
+.nav-item.active,
+.nav-item:hover{
     font-weight: 700;
-    border-bottom: 3px solid var(--brand-color);
+    border-bottom-color: var(--brand-color);
 }
 
 /* nav end */
@@ -572,9 +571,9 @@ body {
   border-radius: 30px;
   background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
 }
-.newsletterTxt {
+/* .newsletterTxt {
   padding: 60px;
-}
+} */
 .newsletterTxt h5 {
   font-family: var(--font-family);
   font-weight: 400;
@@ -769,6 +768,12 @@ body {
     .feedback-text p{
         font-size: 16px;
         text-align: justify;
+    }
+
+
+    .newsletterTxt h2 {
+        font-size: 32px;
+        line-height: 150%;
     }
 }
 
